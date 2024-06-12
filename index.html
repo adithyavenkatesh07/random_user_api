@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cards</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="profile-wrapper">
+                <div class="profile">
+                    <div class="profile-image"></div>
+                    <div class="profile-name">
+                        <h2 id="name">Name</h2>
+                        <div class="profile-bio">
+                            <div class="dob-container">
+                                <span id="d1" class="material-icons"> calendar_month </span>
+                                <span id="dob"> DOB </span>
+                            </div>
+                            <div id="d2" class="profile-info">
+                                <span class="material-icons"> call </span>
+                                <span id="phone"> Phone: </span>
+                            </div>
+                            <div id="d3" class="profile-info">
+                                <span class="material-icons"> mail </span>
+                                <span id="email"> Email: </span>
+                            </div>
+                            <div id="d4" class="profile-info">
+                                <span class="material-icons"> location_on </span>
+                                <span id="location"> Location: </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="resetButton" onclick="getRandomUser()">RESET</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
